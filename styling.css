@@ -1,0 +1,263 @@
+body
+{
+	max-width: 900px;
+	margin: 0 auto;
+
+}
+
+.navigation-bar
+{
+	width: 900px;
+	height: 50px;
+	padding-top: 30px;
+	font-family: 'Montserrat';
+	font-weight: 400;
+}
+
+a
+{
+	text-decoration: none;
+	padding-right: 18px;
+	font-size: 12px;
+}
+
+.a_nav
+{
+	color: #909090;
+}
+
+.a_nav:hover
+{
+	color: black;
+}
+
+.lawyer_img
+{
+	width: 900px;
+	height: 470px;
+	line-height: 0.2;
+	background-image: url('lawyer.jpg');
+	background-size: 950px 470px;
+	position: relative;
+	background-repeat: no-repeat;
+	
+	
+}
+
+
+.sign-up-form
+{
+	background-color: #204060;
+	color: white;
+	width: 224px;
+	height: 290px;
+	padding-left: 25px;
+	padding-right: 31px;
+	line-height: 0.95;
+	font-family: 'Montserrat';
+	padding-top: 20px;
+	position: relative;
+	left: 73px;
+	bottom: -79px;
+	font-weight: 500;
+}
+
+.button_css
+{
+	background-color: #e6d11d;
+	border: none;
+	font-size: 8px;
+	padding: 12px 20px;
+	text-align: center;
+	font-family: 'Montserrat';
+	font-weight: 500;
+}
+
+.button_css:hover
+{
+	background-color: #001a33;
+	background-image: none;
+	color: white;
+}
+
+.features
+{
+	width: 900px;
+	height: 280px;
+	box-sizing: border-box;
+	padding-top: 30px;
+	font-family: 'Montserrat';
+}
+
+.sub-features
+{
+	width: 234px;
+	height: 190px;
+	padding-left: 55px;
+	font-size: 12px;
+	float: left;
+	text-align: center-right;
+	padding-top: 58px;
+	font-weight: 300;
+}
+
+.reviews
+{
+	background-color: #f2f2f2;
+	width: 900px;
+	height: 200px;
+	padding-top: 60px;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 13px;
+	font-family: 'Montserrat';
+}
+
+.pricing
+{
+	
+	width: 900px;
+	height: 631px;	
+}
+
+.background_img
+{
+	background-image: url('glasses.png');
+	height: 647px;
+	position: relative;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.background_img:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background:  rgba(240, 240, 240, 0.93);
+	filter: grayscale(100%);
+}
+.price_boxes_container
+{
+	width: 900px;
+	padding-left: 45px;
+	padding-top: 53px;
+}
+
+.price_box
+{
+	width: 200px;
+	height: 408px;
+	padding-left: 25px;
+	padding-right: 31px;
+	line-height: 1.1;
+	font-family: 'Montserrat';
+	padding-top: 20px;
+	position: relative;
+	font-weight: 500;
+	margin-right:20px;
+	background-image: url('grid.png');
+	background-size: cover;
+	background-color: white;
+	text-align: center;
+}
+
+.price_box:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: rgba(255, 255, 255, 0.85);
+}
+
+.top_text
+{
+	padding-top: 1px;
+	position: relative;
+	text-align: center;
+	line-height: 0.2;
+	font-family: 'Montserrat';
+}
+
+.plan_button
+{
+	background-color: #354f6a;
+	border: none;
+	font-size: 10px;
+	padding: 18px 30px;
+	text-align: center;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	color: white;
+}
+
+.plan_button:hover
+{
+	background-color: #001a33;
+	background-image: none;
+}
+
+.notebook
+{
+	width: 900px;
+	height: 295px;
+	line-height: 0.3;
+}
+
+.notebook_img
+{
+	background-image: url(notebook.jpg);
+    height: 295px;
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 900px 550px;
+    background-position: right -108px;
+}
+
+.notebook_img:before
+{
+  position: absolute;
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 136, 240,0.5);
+  filter: grayscale(40%);
+}
+
+.text
+{
+	color: white;
+	position: relative;
+}
+
+.plan_text
+{
+	position:relative;
+}
+
+.page_footer
+{
+	left: 0;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	background-color:#213244;
+	color: white;
+	width: 900px;
+	text-align: center;
+	padding-top: 29px;
+	padding-bottom: 29px;
+	font-family: 'Montserrat';
+	line-height: 0.5;
+}
